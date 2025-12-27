@@ -1,4 +1,5 @@
 import UIKit
+import SwiftUI
 enum AppStartPoint {
     case login
     case home
@@ -37,7 +38,16 @@ class AppCoordinator: Coordinator {
     func goToDetail() {
         let vc = DetailViewController()
         vc.onNext = { [weak self] in
-            self?.goToConfirmation()}
+            self?.goToCheckout()}
+        navigationController.pushViewController(vc, animated: false)
+    }
+    
+    // SwiftUI
+    func goToCheckout() {
+        let view = CheckoutView(
+            onPurchaseButton: goToConfirmation
+        )
+        let vc = UIHostingController(rootView: view)
         navigationController.pushViewController(vc, animated: false)
     }
     
