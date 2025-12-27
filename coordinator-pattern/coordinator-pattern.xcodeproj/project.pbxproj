@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9541FB242F00574C0018ED8E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541FB232F00574C0018ED8E /* CheckoutView.swift */; };
 		954E7ADD2DB9565A00C0259D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E7ADC2DB9565A00C0259D /* HomeViewController.swift */; };
 		954E7ADF2DB9567700C0259D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E7ADE2DB9567700C0259D /* DetailViewController.swift */; };
 		954E7AE42DB9579200C0259D /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E7AE32DB9579200C0259D /* ConfirmationViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9541FB232F00574C0018ED8E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		954E7ABD2DB950F000C0259D /* coordinator-pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coordinator-pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		954E7ADA2DB9560200C0259D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		954E7ADC2DB9565A00C0259D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9541FB212F00570F0018ED8E /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				9541FB222F0057370018ED8E /* View */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		9541FB222F0057370018ED8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9541FB232F00574C0018ED8E /* CheckoutView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		954E7AB42DB950F000C0259D = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +139,7 @@
 		954E7AE02DB9576D00C0259D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				9541FB212F00570F0018ED8E /* Checkout */,
 				957F0E282DBBEAF20033B62D /* Login */,
 				954E7AE12DB9578000C0259D /* Confirmation */,
 				954E7AD52DB9526D00C0259D /* Home */,
@@ -259,6 +278,7 @@
 			files = (
 				957F0E2B2DBBEB010033B62D /* LoginViewController.swift in Sources */,
 				954E7AE42DB9579200C0259D /* ConfirmationViewController.swift in Sources */,
+				9541FB242F00574C0018ED8E /* CheckoutView.swift in Sources */,
 				954E7AFB2DB960E700C0259D /* AppCoordinator.swift in Sources */,
 				954E7B022DB9622C00C0259D /* Coordinator.swift in Sources */,
 				954E7ADF2DB9567700C0259D /* DetailViewController.swift in Sources */,
